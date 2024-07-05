@@ -1,5 +1,13 @@
 # Custom Windows 11 CMD
 
+## Index
+
+- [Basic Setup](#setup)
+- [Install Fonts](#install-fonts)
+- [Powershell Setup](#powershell-setup)
+  - [Install Oh-My-Posh](#powershell-setup---install-oh-my-pos)
+- Optional: [Install Winfetch](e#optional---winfetch)
+- [CMD Setup](#cmd-setup)
 ## Setup
 
 - Download this [github repository](https://github.com/c2y5/CustomWin11CMD/archive/refs/heads/main.zip)
@@ -9,40 +17,36 @@
 
 - Open the "FONTS" folder and select all the fonts and right click, click "install"
 
-![image]()
-
--
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/install_font.png?raw=true)
 
 ## Powershell Setup
 
 - Open terminal and press control + , to open settings
 - Click "Open JSON file" at the bottom left corner
 
-![image]()
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/open_json.png?raw=true)
 
 - Scroll down and find the "schemes" part
 
-![image]()
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/schemes.png?raw=true)
 
 - Open "settings.json" in the PS folder and copy its content
 
   - Paste it into the end of the schemes section as such
 
-  ![image]()
+  ![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/theme.png?raw=true)
 
   - Make sure there is a "," on the previous line (line 365 on the image)
 
 - Select the Powershell profile & scroll down to find the appearance tab
 
-![image]()
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/appearance.png?raw=true)
 
 - Select "Sonokai Shusia" in the color scheme (you may have to restart terminal)
 
-![image]()
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/ctheme.png?raw=true)
 
 - In the font face select "MesloLGM Nerd Font"
-
-![image]()
 
 - Press Save
 
@@ -96,7 +100,9 @@ Download the latest release of [clink](https://github.com/chrisant996/clink/rele
 
 Make sure you select all the components as follows:
 
-![image]()
+![image](https://github.com/c2y5/CustomWin11CMD/blob/main/assets/cmp.png?raw=true)
+
+To setup the theme for CMD, look at the `Powershell Setup` step and do the same but for CMD.
 
 Navigates to the folder `C:\Program Files (x86)\clink` and paste the `oh-my-posh.lua` file from the `CMD` folder
 
