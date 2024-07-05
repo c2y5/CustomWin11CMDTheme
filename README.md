@@ -5,7 +5,7 @@
 - [Basic Setup](#setup)
 - [Install Fonts](#install-fonts)
 - [Powershell Setup](#powershell-setup)
-  - [Install Oh-My-Posh](#powershell-setup---install-oh-my-pos)
+  - [Install Oh-My-Posh](#powershell-setup---install-oh-my-posh)
 - Optional: [Install Winfetch](e#optional---winfetch)
 - [CMD Setup](#cmd-setup)
 ## Setup
