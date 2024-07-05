@@ -1,0 +1,5 @@
+Install-Script -Name pwshfetch-test-1
+
+notepad $PROFILE
+
+Set-Alias winfetch pwshfetch-test-1

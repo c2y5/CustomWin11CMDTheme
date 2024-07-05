@@ -1,0 +1,3 @@
+notepad $PROFILE
+
+oh-my-posh --init --shell pwsh --config ~/AppData/Local/Programs/oh-my-posh/themes/powerlevel10k_rainbow.omp.json | Invoke-Expression
