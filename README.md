@@ -1,4 +1,4 @@
-# Custom Windows 11 CMD
+# Custom Windows 11 CMD Theme
 
 ## Index
 
