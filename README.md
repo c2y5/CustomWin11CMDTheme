@@ -94,6 +94,10 @@ Set-Alias winfetch pwshfetch-test-1
 
 Restart terminal and type `winfetch`
 
+To use my config:
+- Navigate to ~/.config/winfetch/config.ps1
+- Replace the config.ps1 with the one in `PS`
+
 # CMD Setup
 
 Download the latest release of [clink](https://github.com/chrisant996/clink/releases)
